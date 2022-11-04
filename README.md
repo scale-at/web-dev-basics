@@ -13,3 +13,4 @@ This repository contains all code examples of the tiny website that is created i
 3. Creating an Accessible Contact Form in HTML: [tutorial](https://www.scale.at/blog/html-forms) | [code](code/03-html-forms)
 4. An Introduction to the Awesome World of CSS: [tutorial](https://www.scale.at/blog/css-basics) | [code](code/04-css-basics)
 5. CSS Selectors and Their Specificity: [tutorial](https://www.scale.at/blog/css-selectors) | _no code available_
+6. The CSS Box Model & Layout Basics: [tutorial](https://www.scale.at/blog/css-box-model) | [code](code/06-css-box-model)
