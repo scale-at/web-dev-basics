@@ -14,3 +14,4 @@ This repository contains all code examples of the tiny website that is created i
 4. An Introduction to the Awesome World of CSS: [tutorial](https://www.scale.at/blog/css-basics) | [code](code/04-css-basics)
 5. CSS Selectors and Their Specificity: [tutorial](https://www.scale.at/blog/css-selectors) | _no code available_
 6. The CSS Box Model & Layout Basics: [tutorial](https://www.scale.at/blog/css-box-model) | [code](code/06-css-box-model)
+7. Responsive Web Design: [tutorial](https://www.scale.at/blog/responsive-web-design) | [code](code/07-responsive-web-design)
