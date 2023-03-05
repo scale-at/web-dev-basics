@@ -15,4 +15,4 @@ This repository contains all code examples of the tiny website that is created i
 5. CSS Selectors and Their Specificity: [tutorial](https://www.scale.at/blog/css-selectors) | _no code available_
 6. The CSS Box Model & Layout Basics: [tutorial](https://www.scale.at/blog/css-box-model) | [code](code/06-css-box-model)
 7. Responsive Web Design: [tutorial](https://www.scale.at/blog/responsive-web-design) | [code](code/07-responsive-web-design)
-8. A Responsive Form Layout with CSS Grid: tutorial (coming soon) | [code](code/08-form-with-css-grid/) 
+8. A Responsive Form Layout with CSS Grid: [tutorial](https://www.scale.at/blog/responsive-form-layout-css-grid) | [code](code/08-form-with-css-grid/) 
