@@ -17,4 +17,4 @@ This repository contains all code examples of the tiny website that is created i
 7. Responsive Web Design: [tutorial](https://www.scale.at/blog/responsive-web-design) | [code](code/07-responsive-web-design)
 8. A Responsive Form Layout with CSS Grid: [tutorial](https://www.scale.at/blog/responsive-form-layout-css-grid) | [code](code/08-form-with-css-grid/) 
 9. Responsive Images With HTML: [tutorial](https://www.scale.at/blog/responsive-images-html) | [code](code/09-responsive-images/)
-10. Creating a Dark Mode using CSS Custom Properties: [tutorial]() | [code](code/10-css-custom-properties/)
+10. Creating a Dark Mode using CSS Custom Properties: [tutorial](https://www.scale.at/blog/css-custom-properties) | [code](code/10-css-custom-properties/)
