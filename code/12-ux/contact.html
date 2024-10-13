@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="main-nav">
+    <ul class="main-nav-list" role="list">
+      <li><a href="index.html" class="main-nav-link">Home</a></li>
+      <li><a href="about.html" class="main-nav-link">About me </a></li>
+      <li><a href="contact.html" class="main-nav-link is-current">Contact</a></li>
+    </ul>
+  </nav>
+  <header class="page-header">
+    <div class="content-container">
+      <h1>Contact</h1>
+    </div>
+  </header>
+  <main>
+    <section class="content-section">
+      <div class="content-container content-container-wide">
+        <h2>Contact form</h2>
+        <form action="" method="POST" class="contact-form">
+          <label for="name-input">Name</label>
+          <input id="name-input" type="text" name="name" placeholder="Jane Doe" required />
+          <label for="email-input">Email address</label>
+          <input id="email-input" type="email" name="email" placeholder="jane.doe@example.com" required />
+          <label for="age-input">Age</label>
+          <input id="age-input" type="number" name="age" min="14" />
+
+          <div id="contact-reason-label" class="contact-reason-label">What’s the reason of your contact request?</div>
+          <div role="radiogroup">
+            <div>
+              <input type="radio" name="contact-reason" id="website-request-input" value="website-request" />
+              <label for="website-request-input">I need a <strong>website</strong>. Could you help me with that?</label>
+            </div>
+            <div>
+              <input type="radio" name="contact-reason" id="app-request-input" value="app-request" />
+              <label for="app-request-input">I have an idea for a <strong>web application</strong> and would like to
+                discuss
+                it with you.</label>
+            </div>
+            <div>
+              <input type="radio" name="contact-reason" id="ux-request-input" value="ux-request" />
+              <label for="ux-request-input">I'd like to improve the <strong>user experience</strong> of my project and
+                need
+                some expertise.</label>
+            </div>
+            <div>
+              <input type="radio" name="contact-reason" id="random-request-input" value="random-request" checked />
+              <label for="random-request-input">None of the above, but I still have <strong>a message</strong> for
+                you.</label>
+            </div>
+          </div>
+
+          <label for="message-input">Your message</label>
+          <textarea id="message-input" name="message" rows="5" required>Enter your message here…</textarea>
+
+          <div class="newsletter-subscription">
+            <input type="checkbox" id="newsletter-checkbox" name="newsletter" value="newsletter-subscription" />
+            <label for="newsletter-checkbox">Yes, I want to receive your monthly newsletter!</label>
+          </div>
+
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+    <section class="content-section">
+      <div class="content-container">
+        <h2>Contact data</h2>
+        <p>Contact me via email, phone or send me a letter.</p>
+        <address>
+          <a href="mailto:lara@scale.at">lara@scale.at</a><br />
+          <a href="tel:+4369901234567">+43 699 01 234 567</a><br /><br />
+
+          Rainbow Alley 42<br />
+          1010 Vienna<br />
+          Austria
+        </address>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="circle circle-lg circle-lg-tl"></div>
+    <div class="circle circle-tl"></div>
+    <div class="circle circle-lg circle-lg-br"></div>
+    <div class="circle circle-br"></div>
+    <p>This website is built with love in Austria.</p>
+  </footer>
+</body>
+
+</html>
